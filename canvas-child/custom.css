@@ -1,0 +1,218 @@
+/*
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it
+is easier to update the theme. Simply copy an existing style
+from style.css to this file, and modify it to your liking. */
+
+
+/* GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+
+body {
+background: #f7f7f7 url(img/bgpattern.png) top center;
+}
+
+#inner-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 25px 0 #999999;
+    box-shadow: 0 0 25px 0 #999999;
+    background: #fff;
+}
+
+#footer-widgets {
+    background:#f2f2f2;
+    clear: both;
+    padding: 10px 0;
+}
+
+#connect p {
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 767px) {
+.entryimg {
+	width: 50%;
+	margin-right: 48%;
+	margin-left: 0;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	float: left;
+}
+}
+
+@media only screen and (max-width: 768px) {
+	/* Mobile styles go below this line */
+
+#lbanner {
+display: none;
+}
+
+#header {
+    background-size: auto auto;
+    clear: both;
+    padding: 20px 0 20px;
+    position: relative;
+}
+
+#topad {
+    margin: 10px 0 10px;
+    width: 100%;
+}
+
+.slider-pagination {
+     margin-bottom: 70px;
+}
+	
+#inner-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.accordion h1 {
+	font-size: 16px;
+	}
+
+.entryimg {
+	width: 30%;
+	float: right;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+
+.spalte-one-quarter {
+	width: 45%;
+	margin: 10px 3% 10px 0%;
+	float: left;
+	background: #eee;
+	padding: 1%;
+}
+
+.spalte-one-quarter-right {
+	width: 45%;
+	margin: 10px 3% 20px 0%;
+	float: left;
+	background: #eee;
+	padding: 1%;
+}
+
+.premium{
+	padding: 3%;
+	margin: 1% 0 20px 0;
+	border-left: 3px solid #96BE0D;
+	text-align: left;
+	background: #fff;
+	width: 93%;
+}
+
+.rightcolumn {
+	float: left;
+	width: 95%;
+	padding: 2%;
+	margin-bottom: 10px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	background: #eee;
+
+}
+
+.leftcolumn{
+	width: 96%;
+	padding: 15px 2%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.tabgreen {
+   width: 38%;
+}
+
+.tab {
+   width: 38%;
+}
+
+.tab2 {
+   width: 59%;
+}
+
+.fullwidth{
+	width: 95%;
+	padding: 10px;
+	margin: 0 0 20px 0;
+	background: #f6f6f6;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.spalte_onethird {
+	width: 97%;
+	margin: 10px 1% 10px 1%;
+	float: left;
+	border-right: 0px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.spalte_onethirdlast {
+	width: 98%;
+	margin: 0 1% 0px 1%;
+	float: left;
+}
+
+.spalte_onehalf {
+	width: 97%;
+	margin: 10px 1% 10px 1%;
+	float: left;
+	border-right: 0px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.spalte_onehalflast {
+	width: 98%;
+	margin: 0 1% 0px 1%;
+	float: left;
+}
+
+
+.wpcf7-text, .wpcf7-textarea {
+	width: 99%;
+}
+
+.accordion input:checked ~ .article.ac-normal {
+    max-height: 2000px;
+}
+
+}
+
+/* DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+@media only screen and (min-width: 768px) {
+	/* Desktop styles go below this line */
+
+#lbanner {
+border: 0px solid red;
+width: 100px;
+position: absolute;
+top: -11px; 
+right: 0px;
+z-index: 100;
+}
+
+#sidebar {
+    padding-top: 30px;
+}
+	
+	
+	
+}
+
